@@ -1,0 +1,70 @@
+# GIT
+# clone a repo from a local folder to another
+git clone --local ~/path/to/local/repo/folder/ ~/path/of/destination/folder
+# undo last commit
+git reset --hard HEAD~1
+# undo last changes
+git stash save --keep-index
+# drop stash
+git stash drop
+
+-----------------------------------------------------------
+
+
+# SSH
+# connect to webfaction via SSH
+# make sure your local ssh key has been added to server as described in webfaction documentation
+ssh pff@web343.webfaction.com
+
+
+------------------------------------------------------------
+
+
+# ZIP
+# compress a zip from a folder excluding git'
+# executed from souce directory -
+ zip -r ~/projects/shopify/themes/_export/shopify-theme-2013.zip ./* -x *.git*
+
+
+------------------------------------------------------------
+
+
+# SYMLINKS
+ln -s /path/of/folder/or/file /path/of/where/you/want/link
+
+
+------------------------------------------------------------
+
+
+# BASH SCRIPTS
+# make executable
+chmod +x path/to/script.sh
+
+
+------------------------------------------------------------
+
+# GOOGLE
+# Ad Words
+user: admin@pacificflyfishers.com
+
+
+------------------------------------------------------------
+
+# VIM
+# install vimballs .vba files
+# open vba file in vim and run -
+so %
+
+
+------------------------------------------------------------
+
+
+# PROCESS MANAGEMENT
+ps -ef | grep name-of-process
+
+
+------------------------------------------------------------
+
+
+# GREP
+grep -r "text string to search” directory-path
