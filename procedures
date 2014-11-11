@@ -19,6 +19,8 @@ git stash drop
 # connect to webfaction via SSH
 # make sure your local ssh key has been added to server as described in webfaction documentation
 ssh pff@web343.webfaction.com
+# disengage from a hung or disconnected ssh session - press the following buttons sequentially 
+ENTER KEY, GRAVE KEY, PERIODE KEY
 
 
 ------------------------------------------------------------
