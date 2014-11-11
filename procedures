@@ -12,6 +12,13 @@ git stash save --keep-index
 # drop stash
 git stash drop
 
+# GIT create post recieve hook for auto cloning to folder on remote server
+# Add the following to hooks/post-receive
+#!/bin/sh
+GIT_WORK_TREE=/var/www/www.example.org git checkout -f
+# set the post-recieve hook to executable
+$ chmod +x hooks/post-receive
+
 -----------------------------------------------------------
 
 
