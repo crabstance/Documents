@@ -1,4 +1,8 @@
 # GIT
+#create baree repo .git file
+git init --bare
+#add remote origin for repo
+git remote add origin ssh://user@user.webfactional.com:/home/username/git/repo/location.git
 # clone a repo from a local folder to another
 git clone --local ~/path/to/local/repo/folder/ ~/path/of/destination/folder
 # undo last commit
