@@ -32,6 +32,12 @@ ENTER KEY, GRAVE KEY, PERIODE KEY
 
 ------------------------------------------------------------
 
+#SCP
+# Copy remoted file to local
+scp username@remote.host:/path/to/file localfile
+
+------------------------------------------------------------
+
 
 # ZIP
 # compress a zip from a folder excluding git'
