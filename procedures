@@ -62,12 +62,6 @@ chmod +x path/to/script.sh
 
 ------------------------------------------------------------
 
-# GOOGLE
-# Ad Words
-user: admin@pacificflyfishers.com
-
-
-------------------------------------------------------------
 
 # VIM
 # install vimballs .vba files
@@ -80,6 +74,13 @@ so %
 
 # PROCESS MANAGEMENT
 ps -ef | grep name-of-process
+
+
+------------------------------------------------------------
+
+
+# GET MEMMORY USAGE
+ps -u <username> -o pid,rss,command | awk '{print $0}{sum+=$2} END {print "Total", sum/1024, "MB"}'
 
 
 ------------------------------------------------------------
