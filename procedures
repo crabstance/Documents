@@ -79,6 +79,14 @@ ps -ef | grep name-of-process
 ------------------------------------------------------------
 
 
+# APACHE2
+# watch error log
+tail -f /var/log/apache2/error.log
+
+
+------------------------------------------------------------
+
+
 # GET MEMMORY USAGE
 ps -u <username> -o pid,rss,command | awk '{print $0}{sum+=$2} END {print "Total", sum/1024, "MB"}'
 
